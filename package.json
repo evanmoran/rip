@@ -1,0 +1,30 @@
+{
+  "name": "rip",
+  "version": "0.0.1",
+  "main": "rip.js",
+  "description": "The map-reduce of website parsing",
+  "homepage": "http://github.com/evanmoran/rip",
+  "keywords": [
+    "rip",
+    "ripping",
+    "functional",
+    "map",
+    "reduce"
+  ],
+  "author": "Evan Moran <evan@evanmoran.com>",
+  "dependencies": {
+    "underscore":"latest",
+    "utl":"latest"
+  },
+  "scripts": {
+    "test": "cake test"
+  },
+  "devDependencies": {
+    "mocha": "~1.1.0",
+    "chai": "~1.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evanmoran/rip.git"
+  }
+}
